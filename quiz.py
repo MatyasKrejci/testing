@@ -91,7 +91,9 @@ class Challenges:
     # square and given by rows, so m[i] gives the ith row of the matrix.
     def matrix(self, m:list[list[int]]) -> bool:
         # TODO: Implement the solution
-        pass
+        if len(m) > 0:
+            return True
+        return False
     
     # Returns the number of lonely knights on a square chessboard. 
     # A knight is lonely if no square within a knight's move is occupied by another knight.
